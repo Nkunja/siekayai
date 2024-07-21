@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .bg-hero-pattern {
+    background-image: url('/freep.jpg');
+  }
+
+  header nav a {
+    transition: color 0.3s;
+  }
+  
+  header nav a:hover {
+    color: #38b2ac; /* Tailwind green-300 */
+  }
+  
